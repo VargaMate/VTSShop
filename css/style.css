@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+
+
+}
+h2{
+    color: #2fa1d6;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family:'open sans',Arial,sans-serif;
+}
+nav{
+    background-color: #2fa1d6;
+    height: 50px;
+    list-style-type: none;
+}
+.menu{
+    margin: 0;
+    list-style-type: none;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 100px;
+    padding: 15px;
+    float: left;
+    font-size: 18px;
+
+
+}
+.menu li:hover{
+    background-color: rgba(35,120,160,0.5);
+}
+
+#mycart{
+    margin-left: 400px;
+    margin-top: 0;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.about{
+    width: 800px;
+    padding: 50px;
+    font-family:'open sans',Arial,sans-serif;
+    float: left;
+}
+.contact{
+    width: 800px;
+    padding: 50px;
+    font-family:'open sans',Arial,sans-serif;
+    float: left;
+
+}
+.logo{
+    margin-top: 400px;
+    position: fixed;
+    float: right;
+    margin-left: 200px;
+    width: 200px;
+    opacity: 0.5;
+}
+
+.product{
+    display: flex;
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+
+}
+.product:hover{
+    transition: 0.5s;
+    transform: scale(1.07);
+}
+.place{
+    float: right;
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 18%;
+}
+#search-bar{
+    margin-left: 100px;
+}
+
+
+
